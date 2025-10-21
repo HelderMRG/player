@@ -1,0 +1,27 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "Player List",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelderMRG/player.git"
+  },
+  "author": "Helder Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelderMRG/player/issues"
+  },
+  "homepage": "https://github.com/HelderMRG/player#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  }
+}
